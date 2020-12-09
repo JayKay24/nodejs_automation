@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gameServe": "http-server nobot-examples/020"
   },
   "keywords": [],
   "author": "",
@@ -12,14 +13,19 @@
   "dependencies": {
     "@sendgrid/mail": "^7.4.0",
     "@types/colors": "^1.2.1",
+    "@types/fs-extra": "^9.0.4",
+    "@types/http-server": "^0.10.1",
     "@types/minimist": "^1.2.1",
     "@types/nodemailer": "^6.4.0",
     "@types/readline-sync": "^1.4.3",
     "@types/twilio": "^2.11.0",
+    "better-opn": "^2.1.1",
     "bitly": "^7.1.0",
     "colors": "^1.4.0",
     "csv": "^5.3.2",
     "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "http-server": "^0.12.3",
     "minimist": "^1.2.5",
     "nodemailer": "^6.4.16",
     "readline-sync": "^1.4.10",
